@@ -10,8 +10,8 @@ public final class UUIDHelper {
 		super();
 	}
 
-	public static final UUID convertToUUID(final String uuidAsString) {
-		return UUID.fromString(uuidAsString);
+	public static final UUID convertToUUID(final UUID uuid) {
+		return UUID.fromString(uuid);
 	}
 
 	public static final UUID getDefault(final UUID value, final UUID defaultValue) {
